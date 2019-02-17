@@ -24,4 +24,5 @@ notifications:
     recipients:
       - akalanka345@gmail.com
       - Kalpa.wijesooriya94@gmai.com
+      - ahmedifhaam1@gmail.com
     on_failure: always # default: always
