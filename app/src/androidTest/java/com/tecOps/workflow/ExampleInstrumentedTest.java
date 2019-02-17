@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.kalpa.workflow", appContext.getPackageName());
+        assertEquals("com.tecOps.workflow", appContext.getPackageName());
     }
 }
