@@ -14,8 +14,10 @@ public class login_page extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_page);
 
-        TextView textView2=(TextView) findViewById(R.id.textView2);
+        TextView resetPassword= findViewById(R.id.textView2);
 
-        textView2.setPaintFlags(textView2.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+        resetPassword.setPaintFlags(resetPassword.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+
+
     }
 }
